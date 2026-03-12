@@ -14,18 +14,18 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Clogged Drain Cleaning Service <br />
+      Sewer Line Replacement <br />
       <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Chino Hills</span>
     </>
   ),
-  subtitle = "Chino Hills' premier drain clearing specialists. We provide rapid-response blockage removal and professional hydro jetting to restore your plumbing system quickly — 24/7.",
+  subtitle = "Chino Hills' rapid-response sewer restoration specialists. We provide professional trenchless repair and total sewer line replacement to protect your property from catastrophic backups — 24/7.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
   phone = "8777921410",
-  badge = "CHINO HILLS DRAIN CLEANING PROS",
+  badge = "CHINO HILLS SEWER LINE PROS",
   features = [
-    { icon: Search, text: "Drain Diagnostic" },
-    { icon: ShieldCheck, text: "Blockage Clearance" },
+    { icon: Search, text: "Sewer Diagnostic" },
+    { icon: ShieldCheck, text: "Trenchless Repair" },
     { icon: Locate, text: "Chino Hills Local" }
   ]
 }: HeroProps) => {

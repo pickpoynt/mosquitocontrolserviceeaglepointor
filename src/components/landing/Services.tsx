@@ -2,23 +2,23 @@ import { ArrowRight, Search, ShieldCheck, Hammer, FlaskConical, Target } from "l
 
 const services = [
   {
-    title: "Emergency Unclogging",
-    description: "Rapid response for backed-up drains. We provide immediate mechanical snaking and total blockage removal in Chino Hills homes.",
+    title: "Sewer Replacement",
+    description: "Full-scale restoration of failed sewer lines. We provide permanent structural replacements for Chino Hills homes using heavy-duty materials.",
     icon: Target
   },
   {
-    title: "Hydro Jetting",
-    description: "High-pressure water cleaning to scrub pipe walls and remove years of grease, scale, and debris for long-lasting flow.",
+    title: "Trenchless Repair",
+    description: "Advanced pipe lining technology that repairs sewer lines from the inside, saving your landscaping and driveway from destruction.",
     icon: Search
   },
   {
-    title: "Main Sewer Cleaning",
-    description: "Specialized equipment to clear main sewer line obstructions, including tree roots and major sludge buildup.",
+    title: "Pipe Bursting",
+    description: "Modern replacement method that pulls a new, durable pipe through the old one, effectively 'bursting' the old pipe in place.",
     icon: Hammer
   },
   {
-    title: "Camera Inspection",
-    description: "High-definition video pipe inspections to pinpoint the exact location and nature of your drain problems without digging.",
+    title: "Video Inspection",
+    description: "High-definition camera diagnostics to identify the exact cause and location of your sewer failure before work begins.",
     icon: ShieldCheck
   }
 ];
@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Professional <span className="text-amber-600">Clogged Drain Cleaning Chino Hills</span>
+            Professional <span className="text-amber-600">Sewer Line Replacement Chino Hills</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Chino Hills homeowners trust our specialized team for high-precision blockage localization and total drain diagnostics. We clear the toughest clogs.
+            Chino Hills homeowners trust our specialized team for high-precision sewer failure localization and total line restoration. We target the source.
           </p>
         </div>
 

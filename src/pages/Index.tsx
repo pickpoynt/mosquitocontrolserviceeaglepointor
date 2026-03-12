@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import CloggedDrainInfo from "@/components/landing/CloggedDrainInfo";
+import SewerLineInfo from "@/components/landing/SewerLineInfo";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
@@ -10,19 +10,19 @@ import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
-  const firmName = "Chino Hills Clogged Drain Cleaning Pros";
+  const firmName = "Chino Hills Sewer Line Experts";
   const phoneNumber = "(877) 792-1410";
   const location = "Chino Hills, CA";
   const zipCodes = "91709, 91710, 91708, 92880, 92887";
-  const fullKeyword = "Clogged drain cleaning service Chino Hills";
+  const fullKeyword = "Sewer line replacement Chino Hills";
 
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": firmName,
     "image": "/2.jpeg",
-    "@id": "https://cloggeddraincleaningservicechinohills.vercel.app/",
-    "url": "https://cloggeddraincleaningservicechinohills.vercel.app/",
+    "@id": "https://sewerlinereplacementchinohills.vercel.app/",
+    "url": "https://sewerlinereplacementchinohills.vercel.app/",
     "telephone": "8777921410",
     "address": {
       "@type": "PostalAddress",
@@ -61,16 +61,16 @@ const Index = () => {
       { "@type": "PostalCode", "name": "92880" },
       { "@type": "PostalCode", "name": "92887" }
     ],
-    "description": `Professional ${fullKeyword}. Emergency blockage removal, hydro jetting, and sewer cleaning in Chino Hills ${zipCodes}.`
+    "description": `Professional ${fullKeyword}. Emergency structural restoration and professional trenchless repair in Chino Hills ${zipCodes}.`
   };
 
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>{`${fullKeyword} | ${firmName}`}</title>
-        <meta name="description" content={`Professional ${fullKeyword}. We provide 24/7 emergency blockage removal and expert hydro jetting in ${location} ${zipCodes}. Call ${phoneNumber} now for rapid drain clearing.`} />
-        <meta name="keywords" content={`${fullKeyword}, drain cleaning Chino Hills, rooter service 91709, hydro jetting 91710, sewer cleaning Chino Hills CA`} />
-        <link rel="canonical" href="https://cloggeddraincleaningservicechinohills.vercel.app/" />
+        <title>{`${fullKeyword} | ${firmName} | ${phoneNumber}`}</title>
+        <meta name="description" content={`Expert ${fullKeyword}. We provide 24/7 emergency restoration and professional trenchless replacement in ${location} ${zipCodes}. Call ${phoneNumber} now.`} />
+        <meta name="keywords" content={`${fullKeyword}, trenchless sewer repair Chino Hills, pipe bursting 91709, sewer restoration 91710, local sewer experts Chino Hills CA`} />
+        <link rel="canonical" href="https://sewerlinereplacementchinohills.vercel.app/" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
@@ -84,15 +84,15 @@ const Index = () => {
               <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Chino Hills</span>
             </>
           }
-          subtitle="Chino Hills' premier drain clearing specialists. We provide rapid-response blockage removal and professional hydro jetting to restore your plumbing system quickly — 24/7."
+          subtitle="Chino Hills' rapid-response sewer restoration specialists. We provide professional trenchless repair and total sewer line replacement to protect your property from catastrophic backups — 24/7."
           image="/2.jpeg"
           overlayImage="/4.jpeg"
-          badge="CHINO HILLS DRAIN CLEANING PROS"
+          badge="CHINO HILLS SEWER LINE PROS"
           phone="8777921410"
         />
         <Services />
         <WhyUs />
-        <CloggedDrainInfo />
+        <SewerLineInfo />
         <Contact />
       </main>
       <RandomLinks />
