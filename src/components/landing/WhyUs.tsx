@@ -42,7 +42,7 @@ const WhyUs = () => {
           <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-amber-500/20 shadow-2xl relative group">
               <img
-                src="/2.jpeg"
+                src="/1.jpeg"
                 alt="Squirrel Inspection Fruitland"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
