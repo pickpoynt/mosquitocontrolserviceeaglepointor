@@ -14,26 +14,26 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-blue-50" : "bg-transparent py-6"}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-amber-50" : "bg-transparent py-6"}`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-indigo-600" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
-              <ShieldCheck className={`w-7 h-7 ${isScrolled ? "text-white" : "text-indigo-400"}`} />
+            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-amber-600" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
+              <ShieldCheck className={`w-7 h-7 ${isScrolled ? "text-white" : "text-amber-400"}`} />
             </div>
             <div>
-              <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-indigo-950" : "text-white"}`}>
-                Lynden Yellow Jacket
+              <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
+                West Bloomfield Well
               </span>
-              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                Removal <span className="text-[10px] opacity-70">Pros</span>
+              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-amber-600" : "text-amber-400"}`}>
+                Tank Replacement <span className="text-[10px] opacity-70">Pros</span>
               </span>
             </div>
           </div>
 
           <nav className="hidden xl:flex items-center gap-8">
             {["services", "why-us", "faq", "contact"].map((link) => (
-              <a key={link} href={`#${link}`} className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-indigo-600" : "text-white/90 hover:text-white"}`}>
+              <a key={link} href={`#${link}`} className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-amber-600" : "text-white/90 hover:text-white"}`}>
                 {link.replace("-", " ")}
               </a>
             ))}
@@ -41,11 +41,11 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">EARWIG EMERGENCY</span>
-              <a href="tel:3238801224" className="text-xl font-bold hover:text-indigo-500 transition-colors tracking-tighter">(323) 880-1224</a>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">WELL EMERGENCY</span>
+              <a href="tel:8777921410" className="text-xl font-bold hover:text-amber-500 transition-colors tracking-tighter">(877) 792-1410</a>
             </div>
-            <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="#contact">Free Inspection</a>
+            <Button className={`${isScrolled ? "bg-amber-600 hover:bg-amber-700" : "bg-white text-slate-900 hover:bg-amber-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
+              <a href="#contact">Same-Day Service</a>
             </Button>
           </div>
 
@@ -59,12 +59,12 @@ const Header = () => {
         <div className="xl:hidden bg-slate-900 text-white p-6 absolute top-full left-0 right-0 border-t border-slate-800 h-screen">
           <div className="flex flex-col gap-6">
             {["Services", "Why Us", "FAQ", "Contact"].map((item) => (
-              <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
+              <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-amber-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
             ))}
-            <div className="pt-6">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">EARWIG CONTROL LINE</p>
-              <a href="tel:3238801224" className="text-3xl font-bold text-indigo-400 block mb-6">(323) 880-1224</a>
-              <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
+            <div className="pt-6 text-center">
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">WELL TANK HOTLINE</p>
+              <a href="tel:8777921410" className="text-3xl font-bold text-amber-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(877) 792-1410</a>
+              <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
                 <a href="#contact">Same-Day Service</a>
               </Button>
             </div>

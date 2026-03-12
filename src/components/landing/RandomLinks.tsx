@@ -16,7 +16,7 @@ const RandomLinks = () => {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-400 hover:text-indigo-600 transition-colors text-sm font-medium uppercase tracking-widest"
+              className="text-slate-400 hover:text-amber-600 transition-colors text-sm font-medium uppercase tracking-widest"
             >
               {link.text}
             </a>

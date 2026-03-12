@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Yellow Jacket Removal Lynden</span>
+            Comprehensive <span className="text-amber-600">Well Tank Services West Bloomfield</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Lynden property owners rely on our certified techs for high-risk nest extraction and total colony control. We target the dangerous insects where they live and breed.
+            West Bloomfield homeowners rely on our master plumbers for high-precision well tank diagnosis and total system restoration. We target the hardware that powers your water flow.
           </p>
         </div>
 
@@ -17,23 +17,23 @@ const Services = () => {
           {[
             {
               icon: Search,
-              title: "Nest Location Mapping",
-              description: "Precise identification of underground tunnels, wall void entries, and eave attachments across your Lynden residential or commercial site.",
+              title: "Tank Diagnostic Mapping",
+              description: "Precise identification of bladder failure, air loss, and pressure switch inaccuracies across your West Bloomfield residential or agricultural system.",
             },
             {
               icon: ShieldCheck,
-              title: "Residual Barrier Defense",
-              description: "Commercial-grade barrier applications to common entry points, preventing new queens from establishing colonies in your structural voids.",
+              title: "Premium Tank Replacement",
+              description: "Installation of commercial-grade steel or fiberglass pressure tanks, ensuring a durable air-to-water barrier for your West Bloomfield property.",
             },
             {
-              icon: Bug,
-              title: "Ground Nest Extraction",
-              description: "Safe, deep-injection treatment for underground yellow jacket nests, ensuring complete neutralisation of the subterranean colony.",
+              icon: Droplets,
+              title: "Bladder Integrity Service",
+              description: "Expert testing and calibration of internal bladders to restore the critical air cushion, preventing pump short-cycling and premature failure.",
             },
             {
               icon: Wind,
-              title: "Structural Nest Removal",
-              description: "Specialized extraction from attic spaces, roof lines, and interior walls using protective gear and localized pest knockdown agents.",
+              title: "Constant Pressure Upgrades",
+              description: "Specialized installation of VFD systems to provide steady, town-like water pressure even in large West Bloomfield luxury estates.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300">
@@ -44,7 +44,7 @@ const Services = () => {
                 <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 uppercase tracking-tight">{service.title}</h3>
                 <p className="text-slate-600 leading-relaxed font-medium mb-6">{service.description}</p>
                 <div className="flex items-center gap-2 text-amber-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
-                  Book Extraction <ArrowRight className="w-4 h-4" />
+                  Book Service <ArrowRight className="w-4 h-4" />
                 </div>
               </a>
             </div>

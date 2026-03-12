@@ -12,7 +12,7 @@ const Lease = () => {
                     <div className="max-w-4xl mx-auto bg-white rounded-[3rem] shadow-2xl overflow-hidden border border-slate-100">
                         <div className="bg-amber-600 p-12 text-center text-white">
                             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">Lease This Number</h1>
-                            <p className="text-xl text-amber-50 font-medium italic">Grow your Lynden pest control business for just $19/month.</p>
+                            <p className="text-xl text-amber-50 font-medium italic">Grow your West Bloomfield well business for just $19/month.</p>
                         </div>
 
                         <div className="p-12">
@@ -21,11 +21,11 @@ const Lease = () => {
                                     <h2 className="text-2xl font-bold text-slate-900 uppercase tracking-tight">Why Lease?</h2>
                                     <ul className="space-y-4">
                                         {[
-                                            "Exclusive use of the (323) 880-1224 number",
-                                            "Direct calls from motivated Lynden residents",
+                                            "Exclusive use of the (877) 792-1410 number",
+                                            "Direct calls from motivated West Bloomfield residents",
                                             "Professional SEO-optimized landing page",
                                             "No long-term contracts - cancel anytime",
-                                            "Instant local authority in the yellow jacket niche"
+                                            "Instant local authority in the well tank niche"
                                         ].map((item, i) => (
                                             <li key={i} className="flex items-center gap-3 text-slate-600 font-medium italic">
                                                 <ShieldCheck className="w-5 h-5 text-amber-600 shrink-0" />
@@ -52,7 +52,7 @@ const Lease = () => {
                                     </div>
                                     <div className="flex items-center gap-3 justify-center">
                                         <Phone className="w-6 h-6 text-amber-600" />
-                                        <span className="text-lg font-bold text-slate-700">(323) 880-1224</span>
+                                        <span className="text-lg font-bold text-slate-700">(877) 792-1410</span>
                                     </div>
                                 </div>
                             </div>

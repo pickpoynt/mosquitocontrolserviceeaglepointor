@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import YellowJacketInfo from "@/components/landing/YellowJacketInfo";
+import WellPressureTankInfo from "@/components/landing/WellPressureTankInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>emergency yellow jacket nest removal Lynden - Lynden Yellow Jacket Removal Pros (323) 880-1224</title>
-        <meta name="description" content="emergency yellow jacket nest removal Lynden - Professional yellow jacket removal in Lynden, WA. Serving 98264, 98247, 98276, 98295, 98248, 98230. Expert wasp nest elimination and protective barrier treatments. Call (323) 880-1224 for rapid response." />
-        <meta name="keywords" content="emergency yellow jacket nest removal Lynden, Lynden yellow jacket removal, wasp control Lynden WA, 98264 yellow jacket removal, 98247 pest control, 98276 bee removal" />
-        <link rel="canonical" href="https://emergencyyellowjacketnestremovallynden.com/" />
+        <title>Well pressure tank replacement West Bloomfield - West Bloomfield Well Tank Replacement Pros (877) 792-1410</title>
+        <meta name="description" content="Well pressure tank replacement West Bloomfield - Professional well pressure tank services in West Bloomfield, MI. Serving 48322, 48323, 48324, 48325. Expert diagnostics and rapid tank replacement. Call (877) 792-1410." />
+        <meta name="keywords" content="Well pressure tank replacement West Bloomfield, West Bloomfield well tank service, well tank installation MI, 48322 well repair, 48323 pressure tank replacement" />
+        <link rel="canonical" href="https://wellpressuretankreplacementwestbloomfield.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Lynden Yellow Jacket Removal Pros",
+            "name": "West Bloomfield Well Tank Replacement Pros",
             "image": "/1.jpeg",
-            "@id": "https://emergencyyellowjacketnestremovallynden.com/",
-            "url": "https://emergencyyellowjacketnestremovallynden.com/",
-            "telephone": "+13238801224",
+            "@id": "https://wellpressuretankreplacementwestbloomfield.com/",
+            "url": "https://wellpressuretankreplacementwestbloomfield.com/",
+            "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "300 Front St",
-              "addressLocality": "Lynden",
-              "addressRegion": "WA",
-              "postalCode": "98264",
+              "streetAddress": "7001 Orchard Lake Rd",
+              "addressLocality": "West Bloomfield",
+              "addressRegion": "MI",
+              "postalCode": "48322",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "48.9448",
-              "longitude": "-122.4479"
+              "latitude": "42.5856",
+              "longitude": "-83.3324"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,36 +54,34 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Yellow Jacket Nest Removal",
+            "serviceType": "Well Pressure Tank Replacement",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Lynden Yellow Jacket Removal Pros"
+              "name": "West Bloomfield Well Tank Replacement Pros"
             },
             "areaServed": [
-              { "@type": "City", "name": "Lynden, WA" },
-              { "@type": "PostalCode", "name": "98264" },
-              { "@type": "PostalCode", "name": "98247" },
-              { "@type": "PostalCode", "name": "98276" },
-              { "@type": "PostalCode", "name": "98295" },
-              { "@type": "PostalCode", "name": "98248" },
-              { "@type": "PostalCode", "name": "98230" }
+              { "@type": "City", "name": "West Bloomfield, MI" },
+              { "@type": "PostalCode", "name": "48322" },
+              { "@type": "PostalCode", "name": "48323" },
+              { "@type": "PostalCode", "name": "48324" },
+              { "@type": "PostalCode", "name": "48325" }
             ],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Lynden Yellow Jacket Removal Services",
+              "name": "West Bloomfield Well Tank Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Underground Nest Removal" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Eave and Attic Nest Elimination" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Nighttime Removal" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pressure Tank Diagnosis" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Well Tank Replacement" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pressure Switch Calibration" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="emergency yellow jacket nest removal Lynden - Lynden Yellow Jacket Removal Pros" />
-        <meta property="og:description" content="Professional emergency yellow jacket nest removal in Lynden, WA. Same-day service, expert removal, and perimeter protection." />
+        <meta property="og:title" content="Well pressure tank replacement West Bloomfield - West Bloomfield Well Tank Replacement Pros" />
+        <meta property="og:description" content="Professional well pressure tank replacement in West Bloomfield, MI. Fast diagnostics and guaranteed installation. Call (877) 792-1410." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://emergencyyellowjacketnestremovallynden.com/" />
+        <meta property="og:url" content="https://wellpressuretankreplacementwestbloomfield.com/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -92,19 +90,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              emergency yellow jacket <br />
-              <span className="text-[#FFD700] drop-shadow-sm uppercase">removal Lynden</span>
+              Well pressure tank replacement <br />
+              <span className="text-[#FFD700] drop-shadow-sm uppercase">West Bloomfield</span>
             </>
           }
-          subtitle="Lynden's rapid-response yellow jacket specialists. We eliminate dangerous underground nests, eave colonies, and structural infestations using professional-grade protective gear and targeted treatments — fast."
+          subtitle="West Bloomfield's premier well service specialists. We provide rapid-response pressure tank diagnostics and professional replacement to restore your water pressure today — guaranteed."
           image="/2.jpeg"
           overlayImage="/4.jpeg"
-          badge="LYNDEN YELLOW JACKET CONTROL"
-          phone="3238801224"
+          badge="WEST BLOOMFIELD WELL SERVICES"
+          phone="8777921410"
         />
         <Services />
         <WhyUs />
-        <YellowJacketInfo />
+        <WellPressureTankInfo />
         <Contact />
         <FAQ />
         <RandomLinks />
