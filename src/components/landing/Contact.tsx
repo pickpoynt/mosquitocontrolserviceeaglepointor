@@ -11,10 +11,10 @@ const Contact = () => {
             FRUITLAND MD SQUIRREL CONTROL PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Deploy <span className="text-amber-600">squirrel control fruitland</span>
+            Protect <span className="text-amber-600">Basement Waterproofing Frazer</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Fruitland home from squirrel invasions. Our licensed wildlife team provides same-day removal, full exclusion barriers, and damage repair across Fruitland, MD.
+            Protect your Frazer home from foundation damage. Our specialized team provides same-day inspection, full perimeter drainage, and structural stabilization across Frazer, PA.
           </p>
 
           <div className="space-y-8">
@@ -23,9 +23,9 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">SQUIRREL CONTROL HOTLINE</p>
-                <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors uppercase tracking-tight">
-                  (323) 880-1224
+                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">WATERPROOFING HOTLINE</p>
+                <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors uppercase tracking-tight">
+                  (877) 792-1410
                 </a>
               </div>
             </div>
@@ -35,8 +35,8 @@ const Contact = () => {
                 <ShieldCheck className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">STATE LICENSED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Maryland Licensed Wildlife Specialists</p>
+                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">LIFETIME WARRANTY</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Pennsylvania Licensed Foundation Specialists</p>
               </div>
             </div>
 
@@ -46,9 +46,9 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Fruitland MD Squirrel Control Pros</p>
-                <p className="text-slate-500 font-medium text-sm">201 E Main St, Fruitland, MD 21826</p>
-                <p className="text-slate-500 font-medium text-sm">(323) 880-1224</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Frazer PA Basement Waterproofing Pros</p>
+                <p className="text-slate-500 font-medium text-sm">Frazer, PA 19355</p>
+                <p className="text-slate-500 font-medium text-sm">(877) 792-1410</p>
               </div>
             </div>
 
@@ -66,7 +66,7 @@ const Contact = () => {
                   Want to replace this phone number with your own business line? We offer exclusive lead routing placement for only <strong>$19 a month</strong>.
                 </p>
                 <a
-                  href="mailto:leasemynumber@gmail.com?subject=Phone Replacement Inquiry - Fruitland Squirrel Control"
+                  href="mailto:leasemynumber@gmail.com?subject=Phone Replacement Inquiry - Frazer Waterproofing"
                   className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-xl font-bold uppercase tracking-widest text-xs transition-all hover:gap-3"
                 >
                   <Mail className="w-4 h-4" />
@@ -78,37 +78,37 @@ const Contact = () => {
         </div>
 
         <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-amber-900/10 border border-slate-100">
-          <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Removal</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Inquiry</h3>
           <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Name</label>
-                <input type="text" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Homeowner / Property Manager" />
+                <input type="text" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Property Owner" />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Phone</label>
-                <input type="tel" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="(323) 880-1224" />
+                <input type="tel" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="(877) 792-1410" />
               </div>
             </div>
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Needed</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium">
-                <option>Active Squirrel in Attic (Emergency)</option>
-                <option>Humane Squirrel Trapping</option>
-                <option>Entry Point Exclusion</option>
-                <option>Damage Repair & Cleaning</option>
-                <option>Preventive Seal-Up</option>
+                <option>Sump Pump Issues</option>
+                <option>Foundation Crack Sealing</option>
+                <option>Interior Drainage System</option>
+                <option>Crawl Space Encapsulation</option>
+                <option>Basement Wall Coating</option>
               </select>
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Situation Details</label>
-              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Describe where you're hearing noises and how long..."></textarea>
+              <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Project Details</label>
+              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Describe your water or foundation concerns..."></textarea>
             </div>
             <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-amber-900/20 uppercase tracking-widest transition-all">
-              Request Same-Day Removal
+              Request Professional Review
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *Same-day removal available across Fruitland, Salisbury, and surrounding Wicomico County areas.
+              *Serving Frazer, Malvern, West Chester, and surrounding Chester County areas.
             </p>
           </form>
         </div>

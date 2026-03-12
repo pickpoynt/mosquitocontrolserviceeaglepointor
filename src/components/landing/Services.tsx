@@ -2,23 +2,23 @@ import { ArrowRight, Search, ShieldCheck, Hammer, FlaskConical, Target } from "l
 
 const services = [
   {
-    title: "Humane Trapping",
-    description: "Safe and legal squirrel removal using precision-targeted trapping methods that protect the animal and your property.",
+    title: "Sump Pump Systems",
+    description: "Installation of high-capacity sump pump systems designed to handle Frazer's heaviest rainfall and prevent basement flooding.",
     icon: Target
   },
   {
-    title: "Exclusion Work",
-    description: "The gold standard in squirrel control: sealing every entry point with bite-proof steel mesh and professional sealants.",
+    title: "Foundation Repair",
+    description: "Professional sealing of foundation cracks and structural stabilization to stop water intrusion at the source.",
     icon: ShieldCheck
   },
   {
-    title: "Damage Repair",
-    description: "Restoring chewed wiring, damaged soffits, and compromised attic insulation to pre-infestation condition.",
+    title: "Interior Drainage",
+    description: "Advanced French drain systems and baseboard drainage solutions to redirect water away from your living space.",
     icon: Hammer
   },
   {
-    title: "Sanitization",
-    description: "Thorough cleanup and disinfection of attic spaces to remove biological hazards and pheromones that attract more squirrels.",
+    title: "Vapor Barriers",
+    description: "Premium crawl space encapsulation and wall vapor barriers to eliminate moisture and prevent mold growth.",
     icon: FlaskConical
   }
 ];
@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Squirrel Control Services Fruitland</span>
+            Comprehensive <span className="text-amber-600">Waterproofing Services Frazer</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Fruitland homeowners rely on our specialized wildlife team for high-precision squirrel removal and total system restoration. We target the entry points that power your infestation.
+            Frazer homeowners rely on our specialized team for high-precision basement protection and total foundation restoration. We target the entry points that power your moisture issues.
           </p>
         </div>
 

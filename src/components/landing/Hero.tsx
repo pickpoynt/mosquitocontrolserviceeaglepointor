@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Fruitland MD Squirrel Control",
-  subtitle = "Expert residential squirrel removal and exclusion for Fruitland homes.",
+  title = "Basement Waterproofing Near Frazer PA",
+  subtitle = "Professional basement waterproofing and foundation repair for Frazer homes. Expert moisture control and structural protection — guaranteed.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
-  phone = "3238801224",
-  badge = "FRUITLAND SQUIRREL CONTROL PROS",
+  phone = "8777921410",
+  badge = "FRAZER PA WATERPROOFING SPECIALISTS",
   features = [
-    { icon: Search, text: "Thorough Inspection" },
-    { icon: ShieldCheck, text: "Humane Removal" },
-    { icon: Locate, text: "Local Fruitland Experts" }
+    { icon: Search, text: "Structural Analysis" },
+    { icon: ShieldCheck, text: "Lifetime Warranty" },
+    { icon: Locate, text: "Frazer PA Local Pros" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

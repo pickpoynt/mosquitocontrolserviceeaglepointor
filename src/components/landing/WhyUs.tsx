@@ -9,24 +9,24 @@ const WhyUs = () => {
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-700 mb-6 uppercase tracking-widest text-xs font-bold">
               <ShieldCheck className="w-4 h-4" />
-              <span>Fruitland Squirrel Excellence</span>
+              <span>Frazer Waterproofing Reliability</span>
             </div>
             <div>
               <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 leading-tight mb-6">
-                Why Fruitland Homeowners <br />
+                Why Frazer Homeowners <br />
                 <span className="text-amber-600">Trust Our Specialists</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-8 font-medium">
-                We are Fruitland's dedicated squirrel management team. Our professional approach ensures no squirrel escapes our precision mapping and exclusion strategies.
+                We are Frazer's dedicated basement protection team. Our professional approach ensures no moisture escapes our precision mapping and exclusion strategies.
               </p>
 
               <div className="space-y-4">
                 {[
-                  { text: "Local Fruitland MD Experts", icon: Search },
-                  { text: "Same-Day Emergency Response", icon: Clock },
-                  { text: "Comprehensive Damage Restoration", icon: Target },
-                  { text: "100% Guaranteed Exclusion Work", icon: ShieldCheck },
-                  { text: "Safe, Humane Wildlife Methods", icon: Award }
+                  { text: "Local Frazer PA Experts", icon: Search },
+                  { text: "24/7 Emergency Service", icon: Clock },
+                  { text: "Foundation Crack Repair", icon: Target },
+                  { text: "Lifetime Guaranteed Work", icon: ShieldCheck },
+                  { text: "Safe, Eco-Friendly Methods", icon: Award }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center border border-amber-500/20">
@@ -43,21 +43,21 @@ const WhyUs = () => {
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-amber-500/20 shadow-2xl relative group">
               <img
                 src="/1.jpeg"
-                alt="Squirrel Inspection Fruitland"
+                alt="Basement Inspection Frazer"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
             </div>
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-amber-500/20 shadow-2xl relative group mt-8 md:mt-16">
               <img
                 src="/3.jpeg"
-                alt="Professional Squirrel Control Fruitland"
+                alt="Professional Waterproofing Frazer"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute bottom-6 left-6 right-6 bg-slate-900/90 backdrop-blur-xl p-6 rounded-2xl border border-white/10">
-                <p className="text-amber-400 font-bold uppercase tracking-widest text-[10px] mb-2">Squirrels in Attic?</p>
-                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call Fruitland's Best</h4>
+                <p className="text-amber-400 font-bold uppercase tracking-widest text-[10px] mb-2">Wet Basement?</p>
+                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call Frazer's Best</h4>
                 <Button className="bg-amber-600 hover:bg-amber-700 text-white font-bold h-10 px-6 rounded-xl uppercase tracking-widest text-[10px] w-full" asChild>
-                  <a href="tel:3238801224">Call Now</a>
+                  <a href="tel:8777921410">Call Now</a>
                 </Button>
               </div>
             </div>
