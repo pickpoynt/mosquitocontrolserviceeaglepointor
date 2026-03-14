@@ -14,10 +14,10 @@ const Contact = () => {
               Contact Us
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Rapid Response <span className="text-amber-600">Hillsborough Wasp Removal</span>
+              Rapid Response <span className="text-amber-600">Eagle Point Mosquito Control</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Don't let a wasp nest threaten your family's safety. Our Hillsborough specialists are standing by for immediate dispatch throughout Orange County.
+              Don't let mosquitos chase you inside. Our Eagle Point specialists are standing by for immediate backyard barrier treatments throughout the Rogue Valley.
             </p>
 
             <div className="space-y-8">
@@ -36,10 +36,10 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Hillsborough HQ</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Eagle Point HQ</p>
                   <address className="text-lg font-bold text-slate-900 not-italic">
-                    Hillsborough NC Wasp Removal Experts<br />
-                    Hillsborough, NC 27278
+                    Eagle Point OR Mosquito Control Experts<br />
+                    Eagle Point, OR 97524
                   </address>
                 </div>
               </div>
@@ -79,32 +79,32 @@ const Contact = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Hillsborough ZIP Code</label>
-                  <Input placeholder="27278" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Eagle Point ZIP Code</label>
+                  <Input placeholder="97524" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Wasp Issue Type</label>
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Treatment Type</label>
                   <select className="flex h-14 w-full rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:bg-white transition-all shadow-inner">
-                    <option>Wasp Nest Removal</option>
-                    <option>Hornet Nest Removal</option>
-                    <option>Yellow Jacket Nest</option>
-                    <option>Wasp Prevention Spray</option>
-                    <option>Attic/Eave Inspection</option>
+                    <option>Barrier Spray Treatment</option>
+                    <option>Larvicide Application</option>
+                    <option>Special Event Treatment</option>
+                    <option>Eco-Friendly Spray</option>
+                    <option>Commercial Control</option>
                   </select>
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Details</label>
-                  <Textarea placeholder="Where is the nest located? (e.g. eave, ground, attic)" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Property Details</label>
+                  <Textarea placeholder="Any heavy foliage or standing water areas?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <Button className="w-full h-16 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl shadow-xl shadow-amber-900/20 transition-all hover:scale-[1.02]">
-                  Send Removal Request
+                  Get Mosquito-Free Now
                 </Button>
                 
                 <p className="text-[10px] text-center text-slate-400 font-medium">
-                  By clicking, you agree to being contacted by a local wasp specialist at the number provided.
+                  By clicking, you agree to being contacted by a local mosquito specialist at the number provided.
                 </p>
               </form>
             </div>

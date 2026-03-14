@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Wasp Nest Removal",
-    description: "Professional removal of paper wasp, mud dauber, and yellow jacket nests. We use specialized equipment to safely detach and dispose of nests from eaves, attics, and trees.",
+    title: "Barrier Spray Protection",
+    description: "Our core mosquito control service. We apply a fine mist to foliage and surrounding areas, creating a lethal barrier that eliminates adult mosquitos on contact for up to 30 days.",
     image: "/2.jpeg",
-    points: ["Safe Detachment", "Complete Disposal", "Eco-Friendly Spray"]
+    points: ["Kills Adult Mosquitos", "30-Day Protection", "Eco-Friendly Option"]
   },
   {
-    title: "Hornet Nest Elimination",
-    description: "High-risk hornet nest removal involving protective gear and precision application to neutralize aggressive colonies in Hillsborough properties.",
+    title: "Larvicide Source Control",
+    description: "Stop mosquitos before they hatch. We treat standing water, gutters, and breeding zones with EPA-approved growth inhibitors that prevent larvae from maturing.",
     image: "/3.jpeg",
-    points: ["Full PPE Gear", "Instant Kill", "Night Service Available"]
+    points: ["Egg Elimination", "Water Treatment", "Long-Term Prevention"]
   },
   {
-    title: "Yellow Jacket Controls",
-    description: "Targeted ground nest and wall void treatments for persistent yellow jacket infestations. We eliminate the queen and the entire hive structure.",
+    title: "Eco-Friendly Mosquito Guard",
+    description: "A natural alternative using botanical oils that repel mosquitos effectively without synthetic chemicals. Ideal for gardens and high-traffic family areas.",
     image: "/1.jpeg",
-    points: ["Ground Nest Entry", "Wall Void Injection", "Queen Removal"]
+    points: ["Botanical Oils", "Pet & Family Safe", "Organic Alternative"]
   },
   {
-    title: "Preventive Treatment",
-    description: "Long-lasting residual sprays applied to common nesting areas to prevent wasps from establishing new hives on your home or business structure.",
+    title: "Special Event Spraying",
+    description: "Planning a wedding or outdoor party in Eagle Point? Our 24-hour rapid response team ensures your venue is mosquito-free for your big day.",
     image: "/4.jpeg",
-    points: ["Residual Protection", "Annual Monitoring", "Sealing Service"]
+    points: ["Wedding Protection", "Party Shield", "One-Time Treatment"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Professional <span className="text-amber-600">Wasp Nest Removal Hillsborough NC</span>
+            Comprehensive <span className="text-amber-600">Eagle Point OR Mosquito Control</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Hillsborough homeowners trust our experienced team for rapid, safe, and permanent wasp nest removal. We handle everything from high-eave nests to underground hives.
+            Enjoy your backyard again. In the Eagle Point climate, mosquito populations can explode. Our targeted multi-phase treatments ensure your property remains a bite-free zone.
           </p>
         </div>
 

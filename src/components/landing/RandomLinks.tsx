@@ -1,7 +1,7 @@
 const links = [
-  { text: "Bed Bug Exterminator Zebulon NC", url: "https://bedbugexterminatorzebulonnc.vercel.app/" },
-  { text: "Cockroach Exterminator Clarksdale MS", url: "https://cockroachexterminatorclarksdalems.vercel.app/" },
-  { text: "Hornet Nest Removal Brooksville FL", url: "https://hornetnestremovalbrooksvillefl.vercel.app/" },
+  { text: "Wasp Nest Removal Hillsborough NC", url: "https://waspnestremovalhillsboroughnc.vercel.app/" },
+  { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
+  { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
   { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
 ];
 

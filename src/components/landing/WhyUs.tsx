@@ -1,26 +1,26 @@
-import { Shield, Clock, Award, Hammer, Target, Users } from "lucide-react";
+import { Shield, Clock, Award, Target } from "lucide-react";
 
 const WhyUs = () => {
   const features = [
     {
       icon: Clock,
-      title: "Under-60 Minute Response",
-      description: "Wasp emergencies don't wait. We have technicians stationed throughout Hillsborough to reach your property faster than anyone else."
+      title: "Fast Response Time",
+      description: "Mosquito infestations can ruin any outdoor plan. We prioritize Eagle Point service calls to ensure your property is protected within hours, not days."
     },
     {
       icon: Shield,
-      title: "Certified Safety Protocol",
-      description: "Our licensed exterminators use industrial-grade protective gear and specialized chemicals that are aggressive on wasps but safe for your family."
+      title: "Certified Protection",
+      description: "Our licensed mosquito technicians use industrial-grade equipment and specialized chemicals that are aggressive on pests but safe for your children and pets."
     },
     {
       icon: Target,
-      title: "Source Elimination",
-      description: "We don't just kill the wasps you see; we locate and destroy the queen and the nest structure to ensure they never return to that spot."
+      title: "Multiphase Source Control",
+      description: "We don't just spray the perimeter; we identify and eliminate the source. Our larval growth inhibitors stop the lifecycle before it starts."
     },
     {
       icon: Award,
-      title: "Hillsborough Specialists",
-      description: "Local knowledge of North Carolina wasp behavior—from paper wasps in spring to aggressive yellow jackets in late autumn."
+      title: "OR Pacific Northwest Experts",
+      description: "Local knowledge of Oregon's native mosquito species and seasonal patterns. We understand the specific breeding challenges in the Rogue Valley."
     }
   ];
 
@@ -32,10 +32,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-amber-600">Hillsborough Wasp Team?</span>
+              Why Trust Our <span className="text-amber-600">Eagle Point Mosquito Team?</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Dealing with a wasp nest is dangerous. In Hillsborough, NC, the combination of dense foliage and older structures creates ideal nesting grounds. Our team combines local expertise with aggressive elimination protocols to keep your property safe.
+              Protecting your family from mosquito-borne illness and annoying bites is our top priority. In Eagle Point, OR, the proximity to various water sources makes mosquito control a seasonal necessity. Our team combines advanced larval control with perimeter barrier sprays to reclaim your backyard.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
@@ -55,15 +55,15 @@ const WhyUs = () => {
           
           <div className="lg:w-1/2 relative space-y-4">
             <div className="grid grid-cols-2 gap-4">
-                <img src="/2.jpeg" alt="Nest Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
-                <img src="/3.jpeg" alt="Removal Process" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
-                <img src="/4.jpeg" alt="Preventive Treatment" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
-                <img src="/1.jpeg" alt="Safety Gear" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
+                <img src="/2.jpeg" alt="Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/3.jpeg" alt="Treatment" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
+                <img src="/4.jpeg" alt="Prevention" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
+                <img src="/1.jpeg" alt="Safety" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="w-40 h-40 bg-amber-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">
-                <span className="text-3xl font-bold font-heading">24/7</span>
-                <span className="text-[10px] font-bold uppercase tracking-widest">Rapid Response</span>
+                <span className="text-3xl font-bold font-heading">#1</span>
+                <span className="text-[10px] font-bold uppercase tracking-widest">In Eagle Point</span>
               </div>
             </div>
           </div>

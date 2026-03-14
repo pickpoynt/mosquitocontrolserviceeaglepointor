@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ShieldCheck, Target, Zap, Clock, Search, Locate, Phone } from "lucide-react";
+import { ShieldCheck, Zap, Clock, Search, Locate, Phone } from "lucide-react";
 import { ReactNode } from "react";
 
 interface HeroProps {
@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Wasp Nest Removal <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Hillsborough NC</span>
+      Mosquito Control Service <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Eagle Point OR</span>
     </>
   ),
-  subtitle = "Hillsborough NC's certified wasp and hornet elimination specialists. We deploy safe, effective, and rapid response protocols to completely remove dangerous nests from your property — 24/7.",
+  subtitle = "Eagle Point OR's certified mosquito elimination specialists. We deploy barrier sprays, larval growth inhibitors, and fogging protocols to completely eradicate mosquito populations from your backyard — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "HILLSBOROUGH NC WASP EXPERTS",
+  badge = "EAGLE POINT OR MOSQUITO EXPERTS",
   features = [
-    { icon: Search, text: "Nest Inspection" },
-    { icon: ShieldCheck, text: "Same-Day Removal" },
-    { icon: Locate, text: "Hillsborough Local" }
+    { icon: Search, text: "Barrier Treatment" },
+    { icon: ShieldCheck, text: "Larvae Control" },
+    { icon: Locate, text: "Eagle Point Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Wasp Removal Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Mosquito Control Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/60" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-heading font-bold text-white mb-8 leading-[0.9] tracking-tighter animate-title-slide">
-            Wasp Nest Removal <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Hillsborough NC</span>
+             Mosquito Control Service <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Eagle Point OR</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">
