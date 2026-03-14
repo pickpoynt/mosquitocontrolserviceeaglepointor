@@ -33,11 +33,11 @@ const Hero = ({
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-900">
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Wasp Removal Background" className="w-full h-full object-cover opacity-40 scale-105 animate-slow-zoom" />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-transparent" />
+        <img src={image} alt="Wasp Removal Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <div className="absolute inset-0 bg-slate-950/60" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
